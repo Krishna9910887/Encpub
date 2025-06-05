@@ -28,7 +28,7 @@ class Config:
             self.APP_ID = config("APP_ID", "24828197")
             self.API_HASH = config("API_HASH", "d36e278e89ebeb900aeda4128d413a77")
             self.ARIA2_PORT = config("ARIA2_PORT", default=6800, cast=int)
-            self.BOT_TOKEN = config("BOT_TOKEN", "")
+            self.BOT_TOKEN = config("BOT_TOKEN", "7672683596:AAHz_uR4plvKQ6v6fVE0q0l-McD-56yi-m4")
             self.CACHE_DL = config("CACHE_DL", default=False, cast=bool)
             self.CAP_DECO = config("CAP_DECO", default="◉")
             self.C_LINK = config("C_LINK", default="@new_animes_hindi_dub_india")
