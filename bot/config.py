@@ -55,7 +55,7 @@ class Config:
             self.FFMPEG2 = config("FFMPEG2", default=None)
             self.FFMPEG3 = config("FFMPEG3", default=None)
             self.FFMPEG4 = config("FFMPEG4", default=None)
-            self.FINISHED_PROGRESS_STR = config("FINISHED_PROGRESS_STR", default="🧡")
+            self.FINISHED_PROGRESS_STR = config("FINISHED_PROGRESS_STR", default="🫣")
             self.FL_CAP = config("FILENAME_AS_CAPTION", default=False, cast=bool)
             self.FS_THRESHOLD = config("FLOOD_SLEEP_THRESHOLD", default=600, cast=int)
             self.FSTICKER = config("FSTICKER", default=None)
@@ -91,7 +91,7 @@ class Config:
             self.TG_UL_CLIENT = config("TG_UL_CLIENT", default="pyrogram")
             self.THUMB = config("THUMBNAIL", default=None)
             self.UN_FINISHED_PROGRESS_STR = config(
-                "UN_FINISHED_PROGRESS_STR", default="🤍"
+                "UN_FINISHED_PROGRESS_STR", default="💮"
             )
             self.UAV = config("UPLOAD_AS_VIDEO", default=False, cast=bool)
             self.USE_ANILIST = config("USE_ANILIST", default=True, cast=bool)
